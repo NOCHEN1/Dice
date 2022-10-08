@@ -32,6 +32,10 @@ void draw(){
         }
     }
   }
+  textSize(30);
+  fill(0, 0, 0);
+  text("Sum: " + Sum ,190 , 560);
+  fill(255, 255, 255);
 }
 void mousePressed(){
   redraw();
