@@ -3,6 +3,7 @@ void setup(){
   noLoop();
 }
 void draw(){
+  background(0);
   int Sum = 0;
   for(int x = 10; x < 500; x+= 55){
   for(int y = 10; y < 500; y+= 55){
