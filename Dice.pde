@@ -1,11 +1,8 @@
-void setup()
-{
+void setup(){
   size(510, 570);
   noLoop();
 }
-void draw()
-{
-  background(0);
+void draw(){
   int Sum = 0;
   for(int x = 10; x < 500; x+= 55){
   for(int y = 10; y < 500; y+= 55){
