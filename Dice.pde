@@ -53,49 +53,37 @@ class Die //models one single dice cube
   void show(){
     square(myX, myY, 50);
     if(num == 1){
-      fill(0);
       ellipse(myX + 25 , myY + 25, 10, 10);
-      fill(255);
     }
     if(num == 2){
-      fill(0);
       ellipse(myX + 12 , myY + 10, 10, 10);
       ellipse(myX + 38 , myY + 40, 10, 10);
-      fill(255);
     }
     if(num == 3){
-      fill(0);
       ellipse(myX + 12 , myY + 10, 10, 10);
       ellipse(myX + 38 , myY + 40, 10, 10);
       ellipse(myX + 25 , myY + 25, 10, 10); 
-      fill(255);
     }
     if(num == 4){
-      fill(0);
       ellipse(myX + 12 , myY + 10, 10, 10);
       ellipse(myX + 38 , myY + 10, 10, 10);
       ellipse(myX + 12 , myY + 40, 10, 10);
       ellipse(myX + 38 , myY + 40, 10, 10);
-      fill(255);
     }
     if(num == 5){
-      fill(0);
       ellipse(myX + 12 , myY + 10, 10, 10);
       ellipse(myX + 38 , myY + 10, 10, 10);
       ellipse(myX + 12 , myY + 40, 10, 10);
       ellipse(myX + 38 , myY + 40, 10, 10);
       ellipse(myX + 25 , myY + 25, 10, 10);
-      fill(255);
     }
     if(num == 6){
-    fill(0);
     ellipse(myX + 12 , myY + 10, 10, 10);
     ellipse(myX + 38 , myY + 10, 10, 10);
     ellipse(myX + 12 , myY + 40, 10, 10);
     ellipse(myX + 38 , myY + 40, 10, 10);
     ellipse(myX + 12 , myY + 25, 10, 10);
     ellipse(myX + 38 , myY + 25, 10, 10);
-    fill(255);
     }
           
   }
