@@ -2,7 +2,6 @@ int Sum = 0;
 void setup(){
   size(510, 570);
   noLoop();
-  textAlign(CENTER);
 }
 void draw(){
   background(#f8f4da);
