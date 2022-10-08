@@ -9,6 +9,7 @@ void draw(){
   for(int y = 10; y < 500; y+= 55){
       Die bob = new Die(x, y);
       bob.show();
+      bob.roll();
       if(bob.num == 6){
         Sum = Sum + 6;
       }
