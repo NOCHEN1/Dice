@@ -6,6 +6,7 @@ void setup(){
 }
 void draw(){
   background(#f8f4da);
+  noStroke();
   for(int x = 10; x < 500; x+= 55){
     for(int y = 10; y < 500; y+= 55){
         Die bob = new Die(x, y);
